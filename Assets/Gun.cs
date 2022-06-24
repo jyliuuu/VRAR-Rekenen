@@ -17,4 +17,17 @@ public class Gun : MonoBehaviour
         audioSource.PlayOneShot(audioClip);
         Destroy(spawnedBullet, 2); 
     }
+
+    //void OnTriggerEnter(Collider hand)
+    //{
+    //    Destroy(this.gameObject, 5);
+    //}
+
+    //public void DespawnGun(ControllerColliderHit pickup)
+    //{
+    //    if (pickup.gameObject.tag == "hand")
+    //    {
+    //        Debug.Log("Picked up " + gameObject.name);
+    //    }
+    //}
 }

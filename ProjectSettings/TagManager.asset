@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - shootable
+  - gun
+  - hand
+  - target-1
+  - target-2
+  - target-3
   layers:
   - Default
   - TransparentFX
