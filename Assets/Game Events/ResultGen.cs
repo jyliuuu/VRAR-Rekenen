@@ -24,6 +24,6 @@ public class ResultGen : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(correct);
+        //Debug.Log(correct);
     }
 }
